@@ -10,13 +10,13 @@
   <bean id="emp" class="com.cg.iter.Employee">      
       <property name="empAge" value="22"/>
       <property name="empId" value="1234"/>
-      <property name="empName" value="Preetam"/>
+      <property name="empName" value="Gyanna"/>
       <property name="salary" value="9090"/>
       <property name="SBU" ref="add"/>
   </bean>
   <bean id="add" class="com.cg.iter.SBU">
       <property name="sbuCode" value="PES-BU"/>
-      <property name="sbuHead" value="Kiran Rao"/>
-      <property name="sbuName" value="Product Engineering Service"/>
+      <property name="sbuHead" value="Amar Das"/>
+      <property name="sbuName" value="Sbi BU"/>
   </bean>
 </beans>
