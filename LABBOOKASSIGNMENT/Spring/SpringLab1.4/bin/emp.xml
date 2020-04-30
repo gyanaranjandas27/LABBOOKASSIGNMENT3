@@ -9,16 +9,16 @@
 
 
        <bean id="Preetam" class="com.cg.iter.Employee" autowire="constructor">     
-     <constructor-arg name="employeeId" value="100"/>
+     <constructor-arg name="employeeId" value="388"/>
 <!--   <constructor-arg name="empinfo" ref="add"/>  -->
   </bean>
   
   <bean id="empinfo" class="com.cg.iter.EmpInfo">
    <property name="empinfo1" >  
        <list>
-         <value>Employee ID:100 </value>
-       <value>Employee NAME:Preetam</value>
-       <value>Employee SALARY:12536.98</value>
+         <value>Employee ID:388 </value>
+       <value>Employee NAME:Gyana</value>
+       <value>Employee SALARY:25468.87</value>
        </list>
        </property>
       
